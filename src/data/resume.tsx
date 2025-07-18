@@ -122,7 +122,7 @@ export const DATA = {
     {
       title: "Assembly: Endgame",
       href: "https://github.com/addresskrish/assembly-endgame",
-      // dates: "Jan 2024 - Feb 2024",
+      dates: "",
       active: true,
       description:
         "Assembly Endgame is a word-guessing game inspired by the classic game Hangman. Developed as part of Scrimba's course project, the goal is to guess the hidden word within a limited number of attempts while avoiding incorrect guesses.",
@@ -144,7 +144,7 @@ export const DATA = {
     {
       title: "Tenzies Game",
       href: "https://github.com/addresskrish/tenzies-game",
-      // dates: "June 2023 - Present",
+      dates: "",
       active: true,
       description:
         "Tenzies is an interactive dice game built using React. The goal of the game is to roll the dice until all of them show the same number. Players can hold dice to prevent them from being rerolled, adding a layer of strategy to the gameplay.",
@@ -165,7 +165,7 @@ export const DATA = {
     {
       title: "Anime Website",
       href: "https://github.com/addresskrish/anime-website",
-      // dates: "April 2023 - September 2023",
+      dates: "",
       active: true,
       description:
         "This website showcases popular anime shows with information and images, providing a visually appealing and user-friendly interface.",
@@ -187,7 +187,7 @@ export const DATA = {
     {
       title: "Tesla landing page",
       href: "https://github.com/addresskrish/tesla-landing-page",
-      // dates: "April 2023 - March 2024",
+      dates: "",
       active: true,
       description:
         "Tesla landing page using react and tailwind css.",
