@@ -139,6 +139,11 @@ export const DATA = {
       links: [
         {
           type: "Source",
+          href: "https://assembly-endgame-online.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
           href: "https://github.com/addresskrish/assembly-endgame",
           icon: <Icons.github className="size-3" />,
         },
@@ -159,6 +164,11 @@ export const DATA = {
         "CLX"
       ],
       links: [
+        {
+          type: "Source",
+          href: "https://tenzies-game-online.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/addresskrish/tenzies-game",
