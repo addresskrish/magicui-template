@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Karmjeet",
+  name: "Karmjeet Chauhan",
   initials: "KC",
   url: "https://addresskrish.vercel.app",
   location: "Ahmedabad, India",
@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "20 ✷ building ideas ✷ oss/acc",
   summary:
-    "front-end developer • passionate about building impactful digital solutions with clean, efficient code.",
+    "I'm a passionate front-end developer who specializes in building exceptional digital solutions. I'm dedicated to writing clean, efficient code that not only works flawlessly but also provides an outstanding user experience.",
   avatarUrl: "/new_logo.png",
   skills: [
     "React JS",
@@ -85,18 +85,18 @@ export const DATA = {
     //   description:
     //     "Build and ship full-stack web applications",
     // },
-    // {
-    //   company: "Nothing",
-    //   badges: [],
-    //   href: "https://nothing.community/",
-    //   location: "London • Remote",
-    //   title: "Individual Contributor",
-    //   logoUrl: "/nothing.avif",
-    //   start: "Dec 2024",
-    //   end: "Present",
-    //   description:
-    //     "Contributed a widget design concepts",
-    // },
+    {
+      company: "Nothing",
+      badges: [],
+      href: "https://nothing.community/",
+      location: "London • Remote",
+      title: "Individual Contributor",
+      logoUrl: "/nothing.avif",
+      start: "Dec 2024",
+      end: "Present",
+      description:
+        "Contributed a widget design concepts",
+    },
   ],
   education: [
     {
@@ -168,52 +168,52 @@ export const DATA = {
       image: "/tenzies-game.png",
       video: "",
     },
-    {
-      title: "Anime Website",
-      href: "https://github.com/addresskrish/anime-website",
-      dates: "",
-      active: true,
-      description:
-        "This website showcases popular anime shows with information and images, providing a visually appealing and user-friendly interface.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JS",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/addresskrish/anime-website",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/Anime-Website-Banner.png",
-      video: "",
-    },
-    {
-      title: "Tesla landing page",
-      href: "https://github.com/addresskrish/tesla-landing-page",
-      dates: "",
-      active: true,
-      description:
-        "Tesla landing page using react and tailwind css.",
-      technologies: [
-        "React",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/addresskrish/tesla-landing-page",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/tesla-landing-page.png",
-      video:
-        "",
-    },
+    // {
+    //   title: "Anime Website",
+    //   href: "https://github.com/addresskrish/anime-website",
+    //   dates: "",
+    //   active: true,
+    //   description:
+    //     "This website showcases popular anime shows with information and images, providing a visually appealing and user-friendly interface.",
+    //   technologies: [
+    //     "HTML",
+    //     "CSS",
+    //     "JS",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/addresskrish/anime-website",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/Anime-Website-Banner.png",
+    //   video: "",
+    // },
+    // {
+    //   title: "Tesla landing page",
+    //   href: "https://github.com/addresskrish/tesla-landing-page",
+    //   dates: "",
+    //   active: true,
+    //   description:
+    //     "Tesla landing page using react and tailwind css.",
+    //   technologies: [
+    //     "React",
+    //     "TailwindCSS",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/addresskrish/tesla-landing-page",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/tesla-landing-page.png",
+    //   video:
+    //     "",
+    // },
   ],
-  hackathons: [
+  hackathons: [/*
     {
       title: "Hackout - 2024",
       dates: "11 Aug 2024",
@@ -225,5 +225,5 @@ export const DATA = {
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
-  ],
+  */],
 } as const;
