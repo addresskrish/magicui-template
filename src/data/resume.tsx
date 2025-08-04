@@ -4,26 +4,20 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Karmjeet",
   initials: "KC",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://addresskrish.vercel.app",
+  location: "Ahmedabad, India",
+  locationLink: "https://www.google.com/maps/place/ahmedabad",
   description:
-    "20 year old something guy",
+    "20 ✷ building ideas ✷ oss/acc",
   summary:
-    "full stack web developer • passionate about building impactful digital solutions with clean, efficient code.",
-  avatarUrl: "/me1.jpg",
+    "front-end developer • passionate about building impactful digital solutions with clean, efficient code.",
+  avatarUrl: "/new_logo.png",
   skills: [
-    "React",
-    "Express",
-    "Postman",
-    "MongoDB",
-    "HTML",
-    "CSS",
-    "JS",
-    "C",
-    "C++",
+    "React JS",
+    "TypeScript",
+    "TailwindCSS",
     "Python",
-    "Java",
+    "C++",
     "Git",
     "GitHub",
   ],
@@ -32,7 +26,7 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
+    email: "addresskrish@gmail.com",
     tel: "+123456789",
     social: {
       GitHub: {
@@ -68,29 +62,41 @@ export const DATA = {
 
   work: [
     {
-      company: "TBI GEU",
-      href: "https://tbi.geu.ac.in/",
+      company: "GSSoC 2025",
+      href: "https://gssoc.girlscript.tech/",
       badges: [],
       location: "Remote",
-      title: "full stack developer",
-      logoUrl: "/tbigue.png",
-      start: "Apr 2025",
+      title: "Contributor",
+      logoUrl: "/GSSoC25.png",
+      start: "Jul 2025",
       end: "Present",
       description:
-        "Build and ship full-stack web applications",
+        "Selected as a contributor for the Girlscript Summer of Code program",
     },
-    {
-      company: "Nothing",
-      badges: [],
-      href: "https://nothing.community/",
-      location: "London • Remote",
-      title: "Individual Contributor",
-      logoUrl: "/nothing.avif",
-      start: "Dec 2024",
-      end: "Present",
-      description:
-        "Contributed a widget design concepts",
-    },
+    // {
+    //   company: "TBI GEU",
+    //   href: "https://tbi.geu.ac.in/",
+    //   badges: [],
+    //   location: "Remote",
+    //   title: "fsd summer intern",
+    //   logoUrl: "/tbigue.png",
+    //   start: "Apr 2025",
+    //   end: "Present",
+    //   description:
+    //     "Build and ship full-stack web applications",
+    // },
+    // {
+    //   company: "Nothing",
+    //   badges: [],
+    //   href: "https://nothing.community/",
+    //   location: "London • Remote",
+    //   title: "Individual Contributor",
+    //   logoUrl: "/nothing.avif",
+    //   start: "Dec 2024",
+    //   end: "Present",
+    //   description:
+    //     "Contributed a widget design concepts",
+    // },
   ],
   education: [
     {
@@ -98,25 +104,25 @@ export const DATA = {
       href: "https://scrimba.com/",
       degree: "Font-end devlopment",
       logoUrl: "/scrimba_logo.jpeg",
-      start: "2025",
+      start: "Jun 2025",
       end: "Present",
     },
-    // {
-    //   school: "Buildspace",
-    //   href: "https://buildspace.so",
-    //   degree: "s5",
-    //   logoUrl: "/buildspace.jpg",
-    //   start: "Jun 2024",
-    //   end: "Aug 2024",
-    // },
     {
-      school: "Gujarat Technological University",
-      href: "https://www.gtu.ac.in/",
-      degree: "Bachelor Of Engineering",
-      logoUrl: "/gtu.png",
-      start: "Jun 2022",
-      end: "Jun 2026",
+      school: "Buildspace",
+      href: "https://buildspace.so",
+      degree: "Nights and Weekends s5",
+      logoUrl: "/buildspace.jpg",
+      start: "Jun 2024",
+      end: "Aug 2024",
     },
+    // {
+    //   school: "Gujarat Technological University",
+    //   href: "https://www.gtu.ac.in/",
+    //   degree: "Bachelor Of Engineering",
+    //   logoUrl: "/gtu.png",
+    //   start: "Jun 2022",
+    //   end: "Jun 2026",
+    // },
   ],
   projects: [
     {
@@ -127,7 +133,7 @@ export const DATA = {
       description:
         "Assembly Endgame is a word-guessing game inspired by the classic game Hangman. Developed as part of Scrimba's course project, the goal is to guess the hidden word within a limited number of attempts while avoiding incorrect guesses.",
       technologies: [
-        "React.js",
+        "React",
         "CLX"
       ],
       links: [
@@ -149,7 +155,7 @@ export const DATA = {
       description:
         "Tenzies is an interactive dice game built using React. The goal of the game is to roll the dice until all of them show the same number. Players can hold dice to prevent them from being rerolled, adding a layer of strategy to the gameplay.",
       technologies: [
-        "React.js",
+        "React",
         "CLX"
       ],
       links: [
@@ -192,7 +198,7 @@ export const DATA = {
       description:
         "Tesla landing page using react and tailwind css.",
       technologies: [
-        "React.js",
+        "React",
         "TailwindCSS",
       ],
       links: [
@@ -213,7 +219,7 @@ export const DATA = {
       dates: "11 Aug 2024",
       location: "Daiict, Gandhinagar",
       description:
-        "Developed a web application",
+        "Participated in a 36-hour DAIICT Hackathon, collaborating in a fast-paced environment to develop a real-time collaborative coding platform.",
       image:
         "./daiict-logo.jpg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
